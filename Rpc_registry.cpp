@@ -9,6 +9,8 @@ using namespace std;
 //g++ rpc.cpp -o -I curl/include curl/lib/libcul.a 
 //g++ -L"C:\Users\Sesa432188\Documents\Cprogramming\curl\lib" rpc.cpp -o  test -I curl/include -llibcurl
 
+
+//constexpr
 const string Rpc_registry::server_addr = "http://127.0.0.1:5000/rpc/";
  
 Rpc_registry::Rpc_registry()
